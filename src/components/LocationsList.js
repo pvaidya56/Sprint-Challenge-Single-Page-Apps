@@ -18,7 +18,7 @@ export default function LocationsList() {
   },[]);
 
    return (
-    <section className="grid-view">
+    <section className="grid-view ui segment active tab">
       {locations.map(location => {
         return <LocationCard name={location.name} type={location.type} dimension={location.dimension} residents={location.residents} key={location.id}/>
       })}

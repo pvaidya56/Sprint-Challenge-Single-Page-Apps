@@ -20,7 +20,7 @@ export default function EpisodeList() {
   }, [])
 
    return (
-    <section className="grid-view">
+    <section className="episode-wrapper ui segment active tab">
       {episodes.map(episode => {
         return <EpisodeCard name={episode.name} episode={episode.episode} airDate={episode.air_date} key={episode.id}/>
       })}

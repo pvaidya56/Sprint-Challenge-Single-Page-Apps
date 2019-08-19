@@ -6,7 +6,7 @@ export default function EpisodeCard({ name, episode, airDate }) {
         <div class="item">
           <i class="film icon"></i>
           <div class="content">
-            Title: {name}
+         {name}
           </div>
         </div>
         <div class="item">

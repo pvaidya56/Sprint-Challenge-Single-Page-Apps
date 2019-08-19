@@ -22,7 +22,7 @@ export default function CharacterList() {
   }, []);
 
   return (
-    <section className="character-list grid-view">
+    <section className="character-list grid-view ui segment active tab">
     {characters.map(character => {
       return <CharacterCard character={character} key={character.id}/>
     })}

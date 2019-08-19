@@ -37,3 +37,15 @@ main {
 header h1 {
   text-align: center;
 }
+
+.episode-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 30px;
+  display: grid;
+  
+  } 
+
+ div.list:nth-child(1) {
+  margin-top: 14px;
+ }
